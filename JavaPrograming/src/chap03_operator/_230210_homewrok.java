@@ -7,13 +7,13 @@ public class _230210_homewrok {
 	public static void main(String[] args) throws IOException {
 		char ch, chresult;
 		ch = (char) System.in.read();
-		System.out.print("ÀÔ·ÂÇÏ½Å °ªÀº ");
+		System.out.print("ì…ë ¥í•˜ì‹  ê°’ì€ ");
 		String strresult;
-		strresult = ch<97 ? "´ë¹®ÀÚÀÔ´Ï´Ù." : "¼Ò¹®ÀÚÀÔ´Ï´Ù.";
+		strresult = ch<97 ? "ëŒ€ë¬¸ìì…ë‹ˆë‹¤." : "ì†Œë¬¸ìì…ë‹ˆë‹¤.";
 		System.out.println(strresult);
 		
 		chresult = (char) (ch<97 ? ch+32 : ch-32);
-		System.out.println(chresult + "·Î ¹Ù²Ù°Ú½À´Ï´Ù.");
+		System.out.println(chresult + "ë¡œ ë°”ê¾¸ê² ìŠµë‹ˆë‹¤.");
 		
 	}
 
