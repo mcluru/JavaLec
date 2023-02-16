@@ -6,7 +6,7 @@ public class _02_accessModifier {
 
 	public static void main(String[] args) {
 		
-		//설계도로 부품을 만들기
+		//설계도로 부품을 만들기(인스턴스화)3
 		Minus m = new Minus();
 		
 		//접근 제어자 확인
