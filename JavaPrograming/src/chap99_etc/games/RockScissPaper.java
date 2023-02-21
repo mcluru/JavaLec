@@ -2,7 +2,7 @@ package chap99_etc.games;
 
 import java.util.Scanner;
 
-public class RockScissPaper {
+public class RockScissPaper extends GamesClass {
 	//가위, 바위, 보게임 객체를 생성하여 게임을 진행할 수 있도록 리팩토링
 	
 	//몇승 몇무 몇패인지 셀 변수
@@ -19,6 +19,7 @@ public class RockScissPaper {
 	
 		
 	//게임을 실행하는 메소드
+	
 	public void start() {
 		Scanner sc = new Scanner(System.in);
 		

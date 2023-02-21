@@ -3,7 +3,7 @@ package chap99_etc.games;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class NumBassball {
+public class NumBassball extends GamesClass {
 
 	 //스트라이크와 볼의 개수를 세어줄 변수
 	private int strike = 0;
@@ -24,7 +24,7 @@ public class NumBassball {
 	
 	
 	//게임을 시작하는 메소드
-	public void gameStart() {
+	public void start() {
 		//com배열에 랜덤 값 3개 생성
 		generateRandom();
 		
